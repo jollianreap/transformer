@@ -5,7 +5,12 @@ import math
 
 # implementation is based on https://arxiv.org/abs/1706.03762
 # explainer of article is: Umar Jamil https://www.youtube.com/watch?v=ISNdQcPhsts
+# dataset:
 
+# TODO
+# Add logger in I/O operations
+# Write an API
+# Create some shell for this project
 
 class InputEmbedding(nn.Module):
     def __init__(self, d_model: int, vocab_size: int):
